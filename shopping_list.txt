@@ -2,4 +2,4 @@ Bread x 1
 Eggs x 10
 Juice x 2
 Milk x 3
-Noodles x 5
+Noodles x 6
