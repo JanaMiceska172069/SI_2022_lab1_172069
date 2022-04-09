@@ -1,5 +1,6 @@
 Bread x 1
-Eggs x 10
+Eggs x 7
 Juice x 2
-Milk x 3
-Noodles x 5
+Chips x 3
+Noodles x 6
+Chocolate x 1
