@@ -1,0 +1,94 @@
+C:\Users\User>cd Documents/GitWorkspace
+
+C:\Users\User\Documents\GitWorkspace>mkdir SI2022
+
+C:\Users\User\Documents\GitWorkspace>cd SI2022
+
+C:\Users\User\Documents\GitWorkspace\SI2022>git init  Иницијализација на ново Git repo
+
+C:\Users\User\Documents\GitWorkspace\SI2022>git clone https://github.com/JanaMiceska172069/SI_2022_lab1_172069
+Клонирање на remote repo-то во личен директориум
+
+C:\Users\User\Documents\GitWorkspace\SI2022>cd SI_2022_lab1_172069
+Влегување во репозиториумот
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git add shopping_list.txt
+Додавање на документот во фаза staged
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git commit -m "Add 5 items to the shopping list"
+Додавање на документот во локалното репо со порака
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git push
+Додавање на документот во remote репо
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git add shopping_list.txt
+Додавање на документот во фаза staged после направените промени
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git commit -m "Add quantities to the items"
+Додавање на документот во локалното репо со порака
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git push
+Додавање на документот во remote репо
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git branch branch1
+Креирање на branch1
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git branch branch2
+Креирање на branch2
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git push --all origin
+Синхронизирање на гранките со remote репо
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git checkout branch1
+Префрлување на гранка branch1
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git add shopping_list.txt
+Додавање на документот во фаза staged после направените промени
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git commit -m "Change quantity of item #5"
+Додавање на документот на branch1 со порака
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git checkout master
+Префрлување на master
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git add shopping_list.txt
+Додавање на документот во фаза staged после направените промени
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git commit -m "Change quantity of item #2"
+Додавање на документот на master со порака
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git push --all origin
+Синхронизирање на гранките со remote репо
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git checkout branch2
+Префрлување на branch2
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git add shopping_list.txt
+Додавање на документот во фаза staged после направените промени
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git commit -m "Modify item #4"
+Додавање на документот на branch2 со порака
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git add shopping_list.txt
+Додавање на документот во фаза staged после направените промени
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git commit --amend
+Промена на пораката од последниот commit и додавање на направените промени
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git checkout master
+Префрлување на master
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git push origin branch1
+Спојување на branch1 кон master
+
+C:\Users\User\Documents\GitWorkspace\SI2022\SI_2022_lab1_172069>git push origin branch2
+Спојување на branch2 кон master
+На GitHub се појави конфликт при спојувањето на branch2 и master кој што требаше да го решам пред гранката да се спои
+
+
+
+
+
+
+
+
